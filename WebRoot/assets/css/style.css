@@ -1,0 +1,451 @@
+.table td{
+    padding: 0.40rem 1rem;
+}
+.table th{
+    padding: 0.70rem 1rem;
+}
+.m-t-5{
+	margin-top:5px !important;	
+	}
+form label {
+    font-weight: 600;
+}
+.borderbtn{
+	border-radius:6px;	
+	}
+.m-l-10{
+	margin-left:10px !important;	
+	}
+.text-right{
+	text-align:right;	
+	}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 2px!important;
+    right: 6px!important;
+}
+.select2-container--classic .select2-selection--single, .select2-container--default .select2-selection--single {
+    /*height: 38px!important;
+    padding: 5px;*/
+	height: 2.1125rem !important;
+    padding: .075rem .5rem !important;
+    border-color: #D9D9D9!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    padding-top: 2px;
+    line-height: 20px;
+}
+select[multiple=multiple] {
+     overflow: hidden; 
+	 overflow-x:hidden;
+	 height:60px;
+}
+form .form-group {
+    margin-bottom: 0.2rem;
+}
+.card-block {
+    padding: 1.1rem 1.5rem;
+}
+.list-group-item-action {
+   /* width: 90%;*/
+    width: 100%;
+}
+.list-group-item {
+    padding: .25rem 1.25rem;
+}
+
+.tabtop li{
+	display:inline-block;
+	text-align:right;
+}
+.tabtop li a{
+	font-family:'Lato', sans-serif;
+	font-weight:700;
+	color:#fcfcfc;
+	border-radius:0px 40px 40px 0px;
+	margin-right:10.008px;
+	/*border:1px solid #999 !important;*/}
+.tabtop .active a:before{
+	/*content:"♦";*/
+	/*content:"❥";*/
+	position:absolute;
+	/*top:-14px;
+	right:48%;*/
+	top:3px;
+	color:#666;
+	font-size:30px;}
+.tabtop li a:hover{color:#fcfcfc !important;text-decoration:none;}
+.tabtop .active a:hover{color:#fff !important;}
+.tabtop .active a{background-color:#666 !important;color:#FFF !important;}
+.margin-tops{margin-top:30px;}
+.tabtop li a:last-child{padding:10px 22px;}
+.thbada{padding:10px 28px !important;}
+.heading-container p{font-family:'Lato', sans-serif;text-align:center;font-size:16px !important;text-transform:uppercase;}
+.nav-tabs1 {
+    border-bottom: none;
+}
+@media (max-width:768px) {
+.displaynonemobile{
+			display:none !important;	
+			}	
+	}
+#custom > div > div > div.modal-body > div:nth-child(1) > div > div > span,
+#custom > div > div > div.modal-body > div:nth-child(3) > div:nth-child(3) > div > span,
+#codegenerate > div > div > div.modal-body > div:nth-child(3) > div:nth-child(1) > div > span,
+#codegenerate > div > div > div.modal-body > div:nth-child(3) > div:nth-child(2) > div > span,
+#codegenerate > div > div > div.modal-body > div:nth-child(3) > div:nth-child(3) > div > span,
+#addressmodal > div > div > div.modal-body > div:nth-child(2) > div:nth-child(1) > div > span,
+#addressmodal > div > div > div.modal-body > div:nth-child(2) > div:nth-child(2) > div > span,
+#addressmodal > div > div > div.modal-body > div:nth-child(3) > div:nth-child(1) > div > span,
+#custom > div > div > div.modal-body > div:nth-child(2) > div.col-md-6 > div > span,
+#custom > div > div > div.modal-body > div:nth-child(3) > div.col-md-6 > div > span,
+#addgst > div > div > div.modal-body > div:nth-child(2) > div > div > span,
+#addgst > div > div > div.modal-body > div:nth-child(1) > div > div > span,
+#addgst > div > div > div.modal-body > div:nth-child(3) > div > div > span,
+#addgst > div > div > div.modal-body > div:nth-child(4) > div > div > span,
+#addgst > div > div > div.modal-body > div:nth-child(5) > div > div > span,
+
+.table > tbody > tr > td > span
+{
+
+		width:100% !important;
+	}	
+	
+#custom > div > div > div.modal-body > div:nth-child(1) > div > div > span,
+#custom > div > div > div.modal-body > div:nth-child(3) > div:nth-child(3) > div > span,
+#codegenerate > div > div > div.modal-body > div:nth-child(3) > div:nth-child(1) > div > span,
+#codegenerate > div > div > div.modal-body > div:nth-child(3) > div:nth-child(2) > div > span,
+#codegenerate > div > div > div.modal-body > div:nth-child(3) > div:nth-child(3) > div > span,
+#addressmodal > div > div > div.modal-body > div:nth-child(2) > div:nth-child(1) > div > span,
+#addressmodal > div > div > div.modal-body > div:nth-child(2) > div:nth-child(2) > div > span,
+#addressmodal > div > div > div.modal-body > div:nth-child(3) > div:nth-child(1) > div > span,
+#custom > div > div > div.modal-body > div:nth-child(2) > div.col-md-6 > div > span,
+#addjob > div > div > div.modal-body > div:nth-child(2) > div > div > span,
+#address_details > div > div:nth-child(2) > div:nth-child(1) > div > span,
+#address_details > div > div:nth-child(2) > div:nth-child(2) > div > span,
+#address_details > div > div:nth-child(2) > div:nth-child(3) > div > span,
+#reg_details > div > div:nth-child(2) > div:nth-child(1) > div > span,
+#reg_details > div > div:nth-child(2) > div:nth-child(2) > div > span,
+#reg_details > div > div:nth-child(2) > div:nth-child(3) > div > span,
+#reg_details > div > div:nth-child(3) > div:nth-child(1) > div > span,
+#custom > div > div > div.modal-body > div:nth-child(2) > div.col-md-8 > div > span,
+#bank_details > div:nth-child(1) > div:nth-child(2) > div > div > span,
+#addjob > div > div > div.modal-body > div:nth-child(2) > div > div > span,
+#addjob > div > div > div.modal-body > div:nth-child(1) > div > div > span,
+#addjob > div > div > div.modal-body > div:nth-child(3) > div > div > span,
+#addjob > div > div > div.modal-body > div:nth-child(4) > div > div > span,
+#addinsertion > div > div > div.modal-body > div > div > div > span,
+#custom > div > div > div.modal-body > div:nth-child(3) > div.col-md-4 > div > span,
+ #publication_adv_cat_modal > div > div > div.modal-body > div > div > div > span,
+ #custom > div > div > div.modal-body > div:nth-child(2) > div > div > span,
+ #addgst > div > div > div.modal-body > div.firstrow > div.col-md-2 > div > span,
+#edit_single_record > div > div > div.modal-body > div:nth-child(1) > div > div > span,
+.table > tbody > tr > td > span
+{
+width:100% !important;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+	z-index:1050;
+}
+/* Nikunj Patel */
+
+.textRightTxt {
+	text-align: right; 
+}
+input::-webkit-input-placeholder {			/* WebKit browsers */
+  text-align: left;
+}
+ input::-moz-placeholder {		/*   Mozilla Firefox 19+ but I'm not sure about working */
+  text-align: left;
+} 
+ input:-ms-input-placeholder {
+  Internet Explorer 10
+  text-align: left;
+}
+input::placeholder {
+  text-align: left;
+} 
+
+.heading-company{
+	padding: 0.3rem 1.5rem 0rem 1.5rem;
+	font-size: 18px;
+}
+.heading-branch{
+	padding: 0rem 1.5rem 0.3rem 1.5rem;
+	font-size: 16px;
+}
+.width-40-per {
+    width: 40%!important;
+}
+.m-t-25{
+	margin-top:25px !important;	
+}
+.m-t-30{
+	margin-top:30px !important;	
+}
+.inverse{
+    color: #d9d9d9!important;
+}
+
+
+
+.billing-box{
+    padding: 0.4rem 1.1rem;
+}
+h4.billing{
+font-size: 1rem !important;
+    margin-bottom: 0rem !important;
+}
+h4.billing span.billing-amount{
+	    color: #333;
+		text-align: right;
+		direction: rtl;
+}
+
+
+
+.billing-footer{
+	padding: 0.7rem 1.1rem;
+    font-size: 0.9rem;
+}
+
+.billing-total-box{
+	padding: 0.7rem 1.1rem;
+    font-size: 0.9rem;
+}
+
+h4.billing-total{
+font-size: 1.2rem !important;
+    margin-bottom: 0rem !important;
+}
+
+h4.billing-total span{
+	color: #333;
+		text-align: right;
+		direction: rtl;
+}
+.billing-amount h4{
+    font-size: 1.1rem !important;
+    margin-bottom: 0rem !important;
+}
+.billing-amount h4 span.billing-amount-value{
+color: #333;
+text-align: right;
+direction: rtl;
+}
+
+.pr-25 {
+    padding-right: 1.9rem !important;
+}
+
+.dark-gray {
+    color: #adacac!important;
+}
+
+.table > tbody > tr > td.hidden{
+	display: none;
+}
+
+.anchor-button{
+ padding: 6px 12px 5px 12px !important;
+}
+
+
+/*updated on 13-october-2017*/
+
+.table > tbody > tr > td.hidden{
+display: none;
+}
+
+.anchor-button{
+	 padding: 4px 12px 5px 12px !important;
+}
+
+.pt-5 {
+    padding-top: 0.6rem !important;
+}
+ .pr-25 {
+    padding-right: 1.9rem !important;
+}
+
+.dark-gray {
+    color: #adacac!important;
+}
+
+.menu-scroll {
+    overflow-y: auto;
+    max-height: 450px;
+}
+
+/*after updates given to all on 13-oct-2017*/
+/*loader*/
+.animation div#before_form { 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	z-index: 10999; 
+	width: 100%; 
+	height: 100%; 
+	overflow: hidden; 
+	background:  rgba(79, 193, 233, 0.16) url("/agencyonline/app-assets/images/efive/loading.gif") no-repeat center center;  
+	background-size:5%; 
+}
+
+
+/*16-october-2017*/
+/*app.min.css:13768*/
+.select2-container--classic.select2-container--focus .select2-selection--multiple, .select2-container--classic.select2-container--open .select2-selection--single, .select2-container--default.select2-container--focus .select2-selection--multiple, .select2-container--default.select2-container--open .select2-selection--single {
+	border-color: #CCC!important;
+	outline: 0;
+
+}
+
+/*app.min.css: 13787*/
+.select2-container--classic .select2-selection--multiple .select2-selection__choice, .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	/*padding: 2px 6px!important;*/
+	padding: 0px 6px!important; 
+	line-height:20px;
+	margin-top: 2px!important;
+	background-color: #1d77b9!important;
+	border-color: #7652d1!important;
+	color: #FFF;
+	font-size: 0.9rem;
+	margin-right: 4px!important
+}
+
+/*app.min.css: 13778*/
+.select2-container--classic .select2-selection--multiple, .select2-container--default .select2-selection--multiple {
+/*min-height: 40px!important;
+padding: 5px 8px!important;*/
+min-height: 2.1125rem !important;
+padding: 1px 0px 0px 8px!important;
+border-color: #D9D9D9!important
+}
+/*slect2.min.css: 201*/
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+box-sizing: border-box;
+list-style: none;
+overflow-y: scroll;
+max-height: 71px;
+margin: 0;
+padding: 0 5px;
+width: 100%
+}
+
+/*for browser scrollbar*/
+body::-webkit-scrollbar {
+    width: 0.7em !important;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  outline: 1px solid slategrey !important;
+}
+
+/*for inner page scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e8e8e8;
+}
+::-webkit-scrollbar-track:active {
+  background: #e8e8e8;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.w-100
+{
+	width: 100%;
+}
+
+.table-striped tbody tr.bgred{
+    background-color: rgba(234, 44, 44, 0.46) !important;
+}
+
+/*1 november*/
+.width-75-per {
+    width: 75% !important;
+}
+
+table > tbody > tr > td.singleline{
+	    white-space: pre !important; 
+	}
+}
+
+/* 30 Nov. */
+a.link-disable{ 
+cursor: not-allowed !important;
+}
+
+.text-vertical-middle{
+    vertical-align: middle;
+}
+
+/*2 December*/
+    
+.mt-1-5{
+	margin-top: 1.5rem !important;
+}	
+	
+.back-to-top > span {
+    margin-left: 0.3rem;
+	margin-right: 0.3rem;
+}
+
+ul > li.menu-border {
+	padding: 1px 1px !important;
+        border-bottom: 1px solid #f3f3f3;
+	line-height: 0 !important;
+}
+
+.tabscroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 420px;	
+}
+
+
+table.table > tbody > tr.td-no-padding > td.td-no-padding{
+	    padding: 10px 0px 10px 0px;
+}
+
+
+.modal-border-right{
+    border-right: 1px solid #dadada;
+}
+.modal-border-left{
+    border-right: 1px solid #dadada;
+}
