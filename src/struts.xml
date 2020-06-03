@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<constant name="struts.devMode" value="false" />
+	<package name="default" extends="struts-default">
+			
+		<action name="Agency_*" class="Agency.Agency" method="{1}">
+			<result name="success">/WEB-INF/subscription.jsp</result>
+	 		<result name="error">/WEB-INF/login.jsp</result>
+	 		<result name="Add">/WEB-INF/subscription.jsp</result>
+	 		<result name="showadd">/WEB-INF/add_subscription.jsp</result>
+	 		<result name="Delete">/WEB-INF/subscription.jsp</result>
+	 		<result name="Ser">/WEB-INF/subscription.jsp</result>
+	 		<result name="main">/WEB-INF/subscription.jsp</result>
+		</action>
+ 
+ 	<action name="Company_*" class="Agency.Company" method="{1}">
+			<result name="success">/WEB-INF/city.jsp</result>
+			<!-- <result name="showadd">/WEB-INF/city.jsp</result> -->
+			<result name="Add">/WEB-INF/city.jsp</result>
+			<result name="Delete">/WEB-INF/city.jsp</result>
+			<result name="Ser">/WEB-INF/city.jsp</result>
+			<result name="SubId">/WEB-INF/city.jsp</result>
+	</action>
+		
+		<action name="SubId" method="SubId" class="Agency.Company">
+			<result name="success">/WEB-INF/jsp/city.jsp</result>
+		</action>
+		
+	</package>
+</struts>
